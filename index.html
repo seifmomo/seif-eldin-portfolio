@@ -972,7 +972,7 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
         <div class="hsi-div"></div>
         <div class="hero-live"><i class="fas fa-map-pin"></i><span id="cairoClock">--:--</span><em>· Cairo, GMT+2</em></div>
         <div class="hero-stats-inline">
-<div class="hsi-item"><span class="hsi-num" data-count-up>16</span><span class="hsi-lbl">Projects</span></div>
+<div class="hsi-item"><span class="hsi-num" data-count-up>17</span><span class="hsi-lbl">Projects</span></div>
       <div class="hsi-item"><span class="hsi-num" data-count-up>9</span><span class="hsi-lbl">Certs</span></div>
         </div>
       </div>
@@ -1005,12 +1005,12 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
       <div class="about-intro">Hi, I'm <span>Saifeldin Mohamed Saied</span> — a Software Engineering Student at Egyptian Chinese University with a passion for systems programming, AI, and full-stack development.</div>
       <p class="about-p">I'm currently pursuing my B.Sc. at <strong>Egyptian Chinese University (ECU)</strong> in Cairo, after previously studying at Cairo University's Faculty of Computers & AI. My academic journey is driven by a deep curiosity about how things work under the hood — from memory management in C++ to collision-resolution in multi-agent pathfinding.</p>
       <p class="about-p">My technical toolkit spans <strong>systems programming</strong> with C++ and OOP design patterns, <strong>AI algorithms</strong> including A* and MAPF for multi-agent coordination, <strong>full-stack web development</strong> using Flask and vanilla JavaScript, and <strong>networking & cybersecurity</strong> fundamentals. I believe in building things that matter — whether it's a hospital management system or a luxury dealership website.</p>
-      <p class="about-p">I've shipped <strong>sixteen projects</strong> — including real client work such as a luxury dealership platform for <strong>El Gehad Automotive</strong>, a corporate site for an ELV systems integrator, and a booking assistant for people with disabilities — alongside nine certifications, led by a professional <strong>NovaStar LED Technician</strong> credential and six Mahara-Tech certificates from Egypt's Ministry of Communications.</p>
+      <p class="about-p">I've shipped <strong>seventeen projects</strong> — including real client work such as a luxury dealership platform for <strong>El Gehad Automotive</strong>, a corporate site for an ELV systems integrator, and a booking assistant for people with disabilities — alongside nine certifications, led by a professional <strong>NovaStar LED Technician</strong> credential and six Mahara-Tech certificates from Egypt's Ministry of Communications.</p>
     </div>
     <div class="about-right rev-r">
       <div class="about-right-lbl">At a Glance</div>
       <div class="about-stats">
-<div class="astat"><span class="astat-num">16</span><span class="astat-lbl">Projects</span></div>
+<div class="astat"><span class="astat-num">17</span><span class="astat-lbl">Projects</span></div>
       <div class="astat"><span class="astat-num">9</span><span class="astat-lbl">Certifications</span></div>
         <div class="astat"><span class="astat-num">3</span><span class="astat-lbl">Languages</span></div>
         <div class="astat"><span class="astat-num">2+</span><span class="astat-lbl">Years Building</span></div>
@@ -1038,19 +1038,36 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
     </div>
   </div>
   <div class="proj-filters" id="projFilters">
-    <button class="pf-btn active" data-filter="all">All Projects <span class="pf-count">16</span></button>
+    <button class="pf-btn active" data-filter="all">All Projects <span class="pf-count">17</span></button>
     <button class="pf-btn" data-filter="web">Web &amp; Full-Stack <span class="pf-count">5</span></button>
     <button class="pf-btn" data-filter="ai">AI &amp; Machine Learning <span class="pf-count">3</span></button>
     <button class="pf-btn" data-filter="graphics">Graphics & Game Dev <span class="pf-count">5</span></button>
-    <button class="pf-btn" data-filter="systems">Systems & Embedded <span class="pf-count">2</span></button>
+    <button class="pf-btn" data-filter="systems">Systems & Embedded <span class="pf-count">3</span></button>
     <button class="pf-btn" data-filter="mobile">Mobile & Android <span class="pf-count">1</span></button>
   </div>
   <p class="proj-empty" id="projEmpty">No projects match your search or filter.</p>
   <div class="proj-grid">
 
+    <div class="proj-card rev" data-cat="systems">
+      <div>
+        <div class="proj-num"><span class="pnum">01</span><span class="ptag">ECU TEAM PROJECT</span><span class="ptag ptag-acc">SYSTEMS &amp; EMBEDDED</span></div>
+        <h3 class="proj-title">KV Snapshot &mdash; Crash-Safe Key&ndash;Value Store with Atomic Snapshots</h3>
+        <p class="proj-desc">Team-built in-memory key&ndash;value store with crash-safe, checksummed snapshot files, a REST API, an interactive CLI, and a browser dashboard. Implemented with the Python standard library only &mdash; no Flask, no database, no third-party runtime dependencies.</p>
+        <ul class="proj-buls">
+          <li>Designed a binary <code>KVSN</code> format with a SHA-256 trailer, length bounds, and UTF-8 validation so corrupt or truncated files never reach live memory</li>
+          <li>Implemented the crash-safe write protocol: temp file &rarr; flush + <code>fsync</code> &rarr; atomic <code>os.replace</code> &rarr; directory <code>fsync</code> on POSIX</li>
+          <li>Built a thread-safe store, REST API, interactive CLI, and a warm editorial dashboard; delivered a 27-page report and a 15-page code-discussion guide</li>
+          <li>Wrote 72 unit and integration tests with failure injection, plus a GitHub Actions matrix on Python 3.10/3.12 for Ubuntu and Windows</li>
+        </ul>
+        <div class="stack"><span class="stag">Python</span><span class="stag">Standard Library</span><span class="stag">SHA-256</span><span class="stag">Atomic I/O</span><span class="stag">Threading</span><span class="stag">REST API</span><span class="stag">GitHub Actions</span></div>
+        <div class="proj-links"><a class="plink" href="https://github.com/seifmomo/kv-snapshot" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a><a class="plink plink-live" href="https://github.com/seifmomo/kv-snapshot/blob/main/docs/KV-Snapshot-Project-Report.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Project Report</a></div>
+      </div>
+      <div class="proj-icon">&#128451;&#65039;</div>
+    </div>
+
     <div class="proj-card rev" data-cat="ai">
       <div>
-        <div class="proj-num"><span class="pnum">01</span><span class="ptag">SOLO PROJECT</span><span class="ptag ptag-acc">AI &amp; MULTI-AGENT SYSTEMS</span></div>
+        <div class="proj-num"><span class="pnum">02</span><span class="ptag">SOLO PROJECT</span><span class="ptag ptag-acc">AI &amp; MULTI-AGENT SYSTEMS</span></div>
         <h3 class="proj-title">Quality Network &mdash; Enterprise Network Topology Explorer</h3>
         <p class="proj-desc">Interactive network-map application for discovering, visualizing, and analyzing enterprise network infrastructure. Renders devices, links, and hierarchy as a fast, responsive graph and helps engineers reason about topology and reachability.</p>
         <ul class="proj-buls">
@@ -1067,7 +1084,7 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
 
     <div class="proj-card rev" data-cat="web">
       <div>
-        <div class="proj-num"><span class="pnum">02</span><span class="ptag">SOLO PROJECT</span><span class="ptag ptag-acc">WEB & FULL-STACK</span></div>
+        <div class="proj-num"><span class="pnum">03</span><span class="ptag">SOLO PROJECT</span><span class="ptag ptag-acc">WEB & FULL-STACK</span></div>
         <h3 class="proj-title">FoodieDash — Online Food Ordering System</h3>
         <p class="proj-desc">A complete front-end food ordering platform covering the full user journey from browsing to delivery tracking, including an admin management dashboard.</p>
         <ul class="proj-buls">
@@ -1084,7 +1101,7 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
 
     <div class="proj-card rev" data-cat="systems">
       <div>
-        <div class="proj-num"><span class="pnum">03</span><span class="ptag">ECU COURSEWORK</span><span class="ptag ptag-acc">SYSTEMS & EMBEDDED</span></div>
+        <div class="proj-num"><span class="pnum">04</span><span class="ptag">ECU COURSEWORK</span><span class="ptag ptag-acc">SYSTEMS & EMBEDDED</span></div>
         <h3 class="proj-title">Hospital Management System</h3>
         <p class="proj-desc">Console-based C++ application managing full hospital operations — patients, doctors, appointments, and automated billing.</p>
         <ul class="proj-buls">
@@ -1101,7 +1118,7 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
 
     <div class="proj-card rev" data-cat="ai">
       <div>
-        <div class="proj-num"><span class="pnum">04</span><span class="ptag">AI COURSE</span><span class="ptag ptag-acc">AI & MACHINE LEARNING</span></div>
+        <div class="proj-num"><span class="pnum">05</span><span class="ptag">AI COURSE</span><span class="ptag ptag-acc">AI & MACHINE LEARNING</span></div>
         <h3 class="proj-title">Warehouse Multi-Robot Coordination</h3>
         <p class="proj-desc">Simulates autonomous robots navigating a 10×10 grid warehouse, comparing independent vs cooperative multi-agent pathfinding with real-time visualisation.</p>
         <ul class="proj-buls">
@@ -1117,7 +1134,7 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
 
     <div class="proj-card rev" data-cat="web">
       <div>
-        <div class="proj-num"><span class="pnum">05</span><span class="ptag">SOLO PROJECT</span><span class="ptag ptag-acc">WEB & FULL-STACK</span></div>
+        <div class="proj-num"><span class="pnum">06</span><span class="ptag">SOLO PROJECT</span><span class="ptag ptag-acc">WEB & FULL-STACK</span></div>
         <h3 class="proj-title">Study Planner — Personalized Schedule Generator</h3>
         <p class="proj-desc">Full-stack web app that auto-generates study schedules using a priority algorithm. 30-user validated — reduces scheduling time from 30+ minutes to zero.</p>
         <ul class="proj-buls">
@@ -1134,7 +1151,7 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
 
         <div class="proj-card rev" data-cat="systems">
       <div>
-        <div class="proj-num"><span class="pnum">06</span><span class="ptag">NETWORKING COURSE</span><span class="ptag ptag-acc">SYSTEMS & EMBEDDED</span></div>
+        <div class="proj-num"><span class="pnum">07</span><span class="ptag">NETWORKING COURSE</span><span class="ptag ptag-acc">SYSTEMS & EMBEDDED</span></div>
         <h3 class="proj-title">HTTP Persistent vs Non-Persistent Connections over IoT</h3>
         <p class="proj-desc">A full client-server benchmarking system comparing HTTP connection strategies on embedded hardware, quantifying the real latency cost of repeated TCP handshakes.</p>
         <ul class="proj-buls">
@@ -1150,7 +1167,7 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
 
 <div class="proj-card rev" data-cat="web">
       <div>
-        <div class="proj-num"><span class="pnum">07</span><span class="ptag">FREELANCE CLIENT</span><span class="ptag ptag-acc">WEB & FULL-STACK</span></div>
+        <div class="proj-num"><span class="pnum">08</span><span class="ptag">FREELANCE CLIENT</span><span class="ptag ptag-acc">WEB & FULL-STACK</span></div>
         <h3 class="proj-title">El Gehad Automotive — Luxury Dealership Platform</h3>
         <p class="proj-desc">Static-first full-stack dealer site: 71-vehicle catalog with client-side search/filter and paginated "load more," per-vehicle detail pages, JWT-secured admin CRUD, and inquiry/newsletter pipelines.</p>
         <ul class="proj-buls">
@@ -1167,7 +1184,7 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
 
     <div class="proj-card rev" data-cat="ai">
       <div>
-        <div class="proj-num"><span class="pnum">08</span><span class="ptag">MACHINE LEARNING</span><span class="ptag ptag-acc">AI & MACHINE LEARNING</span></div>
+        <div class="proj-num"><span class="pnum">09</span><span class="ptag">MACHINE LEARNING</span><span class="ptag ptag-acc">AI & MACHINE LEARNING</span></div>
         <h3 class="proj-title">Energy Consumption Prediction & Analysis System</h3>
         <p class="proj-desc">A machine learning and deep learning system predicting household energy consumption, benchmarking model performance and uncovering usage patterns through unsupervised clustering.</p>
         <ul class="proj-buls">
@@ -1184,7 +1201,7 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
 
     <div class="proj-card rev" data-cat="graphics">
       <div>
-        <div class="proj-num"><span class="pnum">09</span><span class="ptag">GRAPHICS PROGRAMMING</span><span class="ptag ptag-acc">GRAPHICS & GAME DEV</span></div>
+        <div class="proj-num"><span class="pnum">10</span><span class="ptag">GRAPHICS PROGRAMMING</span><span class="ptag ptag-acc">GRAPHICS & GAME DEV</span></div>
         <h3 class="proj-title">3D Maze Game</h3>
         <p class="proj-desc">A complete 3D puzzle game built from scratch with a hand-coded math library — no external dependencies for transforms, projection, or lighting.</p>
         <ul class="proj-buls">
@@ -1201,7 +1218,7 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
 
     <div class="proj-card rev" data-cat="graphics">
       <div>
-        <div class="proj-num"><span class="pnum">10</span><span class="ptag">GRAPHICS PROGRAMMING</span><span class="ptag ptag-acc">GRAPHICS & GAME DEV</span></div>
+        <div class="proj-num"><span class="pnum">11</span><span class="ptag">GRAPHICS PROGRAMMING</span><span class="ptag ptag-acc">GRAPHICS & GAME DEV</span></div>
         <h3 class="proj-title">Fast & Furious: 3D Street Racing</h3>
         <p class="proj-desc">A night-city racing game with a procedurally generated city, AI traffic, and a fully hand-modeled sports car with a dynamic multi-light system.</p>
         <ul class="proj-buls">
@@ -1217,7 +1234,7 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
 
     <div class="proj-card rev" data-cat="graphics">
       <div>
-        <div class="proj-num"><span class="pnum">11</span><span class="ptag">GRAPHICS PROGRAMMING</span><span class="ptag ptag-acc">GRAPHICS & GAME DEV</span></div>
+        <div class="proj-num"><span class="pnum">12</span><span class="ptag">GRAPHICS PROGRAMMING</span><span class="ptag ptag-acc">GRAPHICS & GAME DEV</span></div>
         <h3 class="proj-title">Nebula Overdrive — 3D Car Game</h3>
         <p class="proj-desc">A browser-based 3D racing game with custom GLSL shaders, real-time shadow mapping, and a fully hand-rolled math and audio pipeline.</p>
         <ul class="proj-buls">
@@ -1233,7 +1250,7 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
 
     <div class="proj-card rev" data-cat="graphics">
       <div>
-        <div class="proj-num"><span class="pnum">12</span><span class="ptag">GRAPHICS PROGRAMMING</span><span class="ptag ptag-acc">GRAPHICS & GAME DEV</span></div>
+        <div class="proj-num"><span class="pnum">13</span><span class="ptag">GRAPHICS PROGRAMMING</span><span class="ptag ptag-acc">GRAPHICS & GAME DEV</span></div>
         <h3 class="proj-title">Neon Vortex Survivor</h3>
         <p class="proj-desc">An arena survivor game with a full GPU post-processing pipeline and shader-driven neon visual identity.</p>
         <ul class="proj-buls">
@@ -1248,7 +1265,7 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
 
     <div class="proj-card rev" data-cat="graphics">
       <div>
-        <div class="proj-num"><span class="pnum">13</span><span class="ptag">GRAPHICS PROGRAMMING</span><span class="ptag ptag-acc">GRAPHICS & GAME DEV</span></div>
+        <div class="proj-num"><span class="pnum">14</span><span class="ptag">GRAPHICS PROGRAMMING</span><span class="ptag ptag-acc">GRAPHICS & GAME DEV</span></div>
         <h3 class="proj-title">Cosmic Drift: Space Runner</h3>
         <p class="proj-desc">An endless runner set in an asteroid field, simulating up to 1,500 concurrent particles with a fully hand-modeled spaceship.</p>
         <ul class="proj-buls">
@@ -1264,7 +1281,7 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
 
     <div class="proj-card rev" data-cat="web">
       <div>
-        <div class="proj-num"><span class="pnum">14</span><span class="ptag">SOLO PROJECT</span><span class="ptag ptag-acc">WEB & FULL-STACK</span></div>
+        <div class="proj-num"><span class="pnum">15</span><span class="ptag">SOLO PROJECT</span><span class="ptag ptag-acc">WEB & FULL-STACK</span></div>
         <h3 class="proj-title">EGYDIR — B2B Directory for Egyptian Companies & Factories</h3>
         <p class="proj-desc">A full modern redesign of the legendary EGYDIR B2B directory with a fresh, bold identity and complete Arabic RTL support — rebuilt on real data from the original Egyptian platform.</p>
         <ul class="proj-buls">
@@ -1282,7 +1299,7 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
 
     <div class="proj-card rev" data-cat="web">
       <div>
-        <div class="proj-num"><span class="pnum">15</span><span class="ptag">SOLO PROJECT</span><span class="ptag ptag-acc">WEB & FULL-STACK</span></div>
+        <div class="proj-num"><span class="pnum">16</span><span class="ptag">SOLO PROJECT</span><span class="ptag ptag-acc">WEB & FULL-STACK</span></div>
         <h3 class="proj-title">Quality Egypt — Corporate Website for an ELV Systems Integrator</h3>
         <p class="proj-desc">Complete corporate website rebuild for Egyptian Engineering Projects Co., Quality — a leading ELV systems integrator operating since 1985.</p>
         <ul class="proj-buls">
@@ -1301,7 +1318,7 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
 
     <div class="proj-card rev" data-cat="mobile">
       <div>
-        <div class="proj-num"><span class="pnum">16</span><span class="ptag">IMPACT X · STARTUP</span><span class="ptag ptag-acc">MOBILE & ANDROID</span></div>
+        <div class="proj-num"><span class="pnum">17</span><span class="ptag">IMPACT X · STARTUP</span><span class="ptag ptag-acc">MOBILE & ANDROID</span></div>
         <div class="proj-feat"><i class="fas fa-star"></i> Featured · Latest</div>
         <h3 class="proj-title">RAFIQ — Human Support Assistant Booking for People with Disabilities</h3>
         <p class="proj-desc">An AI-powered accessibility marketplace (Android) that connects people with disabilities to trained support assistants — wrapping the journey in sign-language recognition, voice commands, live tracking and emergency SOS.</p>
@@ -1666,7 +1683,7 @@ function animateCount(el){
 }
 window.addEventListener('load',()=>{document.querySelectorAll('.hsi-num[data-count-up]').forEach(el=>{const o=new IntersectionObserver(es=>{es.forEach(x=>{if(x.isIntersecting){animateCount(el);o.unobserve(el)}})},{threshold:0.5});o.observe(el)})})
 // typed headline
-const ROLES=['I ship full-stack web apps.','I train ML & deep-learning systems.','I build 3D engines with hand-rolled math.','I design for impact — 16 projects shipped.'];
+const ROLES=['I ship full-stack web apps.','I train ML & deep-learning systems.','I build 3D engines with hand-rolled math.','I design for impact — 17 projects shipped.'];
 let ri=0,ci=0,del=false;
 const tlEl=document.getElementById('typedLine');
 function typeLoop(){
