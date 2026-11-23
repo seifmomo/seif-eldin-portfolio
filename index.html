@@ -3,35 +3,36 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Saifeldin Mohamed Saied</title>
+<title>Saifeldin Mohamed Saied — Software Engineering Portfolio</title>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="preload" as="image" href="hero.webp" type="image/webp" fetchpriority="high">
 <link rel="icon" type="image/svg+xml" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><radialGradient id="glow" cx="50%" cy="40%" r="65%"><stop offset="0%" stop-color="%23f7e3a1" stop-opacity="0.28"/><stop offset="100%" stop-color="%23f7e3a1" stop-opacity="0"/></radialGradient><linearGradient id="sgr" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="%23f7e3a1"/><stop offset="55%" stop-color="%23e8c84a"/><stop offset="100%" stop-color="%23a3761a"/></linearGradient></defs><rect width="64" height="64" rx="16" fill="%230b0b10"/><rect x="2" y="2" width="60" height="60" rx="14" fill="none" stroke="%23c89b1e" stroke-opacity="0.35"/><rect width="64" height="64" rx="16" fill="url(%23glow)"/><text x="32" y="45" font-family="Georgia,Garamond,serif" font-size="40" font-weight="700" text-anchor="middle" fill="url(%23sgr)">S</text><path d="M55 9 L60 14 L55 19 L50 14 Z" fill="%23e8c84a"/></svg>'>
 <meta name="description" content="Saifeldin Mohamed Saied — Software Engineering student at ECU. Full-stack web apps, AI/ML systems, and real-time graphics with hand-rolled math.">
 <meta name="author" content="Saifeldin Mohamed Saied">
 <meta name="color-scheme" content="dark light">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Saifeldin Mohamed Saied — Portfolio">
-<meta property="og:title" content="Saifeldin Mohamed Saied — Software Engineer">
+<meta property="og:title" content="Saifeldin Mohamed Saied — Software Engineering Student">
 <meta property="og:description" content="Software Engineering student at ECU. Full-stack web apps, AI &amp; multi-agent systems, and real-time graphics.">
-<meta property="og:url" content="https://seifmomo.github.io/seif-eldin-porfoilo/">
-<meta property="og:image" content="https://seifmomo.github.io/seif-eldin-porfoilo/og.png">
+<meta property="og:url" content="https://seifmomo.github.io/seif-eldin-portfolio/">
+<meta property="og:image" content="https://seifmomo.github.io/seif-eldin-portfolio/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Saifeldin Mohamed Saied — Software Engineer portfolio">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Saifeldin Mohamed Saied — Software Engineer">
+<meta name="twitter:title" content="Saifeldin Mohamed Saied — Software Engineering Student">
 <meta name="twitter:description" content="Software Engineering student at ECU. Full-stack web apps, AI &amp; multi-agent systems, and real-time graphics.">
-<meta name="twitter:image" content="https://seifmomo.github.io/seif-eldin-porfoilo/og.png">
-<link rel="canonical" href="https://seifmomo.github.io/seif-eldin-porfoilo/">
+<meta name="twitter:image" content="https://seifmomo.github.io/seif-eldin-portfolio/og.png">
+<link rel="canonical" href="https://seifmomo.github.io/seif-eldin-portfolio/">
 <meta name="theme-color" content="#c8a028">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Saifeldin Mohamed Saied",
-  "url": "https://seifmomo.github.io/seif-eldin-porfoilo/",
-  "image": "https://seifmomo.github.io/seif-eldin-porfoilo/og.png",
+  "url": "https://seifmomo.github.io/seif-eldin-portfolio/",
+  "image": "https://seifmomo.github.io/seif-eldin-portfolio/og.png",
   "jobTitle": "Software Engineering Student",
   "description": "Software Engineering student at the Egyptian Chinese University. Builds full-stack web applications, AI and multi-agent coordination systems, and real-time 3D graphics.",
   "alumniOf": { "@type": "CollegeOrUniversity", "name": "Egyptian Chinese University" },
@@ -74,6 +75,7 @@
 }
 html{scroll-behavior:smooth;overflow-x:clip}
 body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;overflow-x:hidden;line-height:1.6}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--gold2);outline-offset:3px}
 
 ::-webkit-scrollbar{width:4px}
 ::-webkit-scrollbar-track{background:var(--bg)}
@@ -149,7 +151,7 @@ html[data-theme="light"] .hero-spotlight{
 }
 
 /* LEFT — content */
-.hero-left{max-width:560px}
+.hero-left{max-width:600px}
 .hero-eyebrow{
   display:inline-flex;align-items:center;gap:10px;
   font-size:0.72rem;font-weight:600;letter-spacing:3px;text-transform:uppercase;
@@ -161,7 +163,7 @@ html[data-theme="light"] .hero-spotlight{
 
 .hero-name{
   font-family:'Syne',sans-serif;font-weight:800;color:#fff;
-  font-size:clamp(2.6rem,5vw,4.4rem);line-height:1.06;letter-spacing:-1.5px;
+  font-size:clamp(2.2rem,4.6vw,3.8rem);line-height:1.06;letter-spacing:-1.5px;
   margin-bottom:20px;
   opacity:0;animation:heroUp 0.9s ease 0.3s forwards;
 }
@@ -186,7 +188,7 @@ html[data-theme="light"] .hero-spotlight{
 }
 
 .hero-cta-row{
-  display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:40px;
+  display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:40px;
   opacity:0;animation:heroUp 0.85s ease 0.75s forwards;
 }
 .hero-btn-gold{
@@ -255,7 +257,7 @@ html[data-theme="light"] .hero-spotlight{
   position:absolute;bottom:20px;left:20px;right:20px;z-index:2;
   opacity:0;animation:heroUp 0.8s ease 1.0s forwards;
 }
-.hero-photo-caption .hpc-name{font-family:'Syne',sans-serif;font-weight:800;font-size:1rem;color:#fff;margin-bottom:2px}
+.hero-photo-caption .hpc-name{font-family:'Syne',sans-serif;font-weight:800;font-size:0.92rem;color:#fff;margin-bottom:2px}
 .hero-photo-caption .hpc-role{font-size:0.68rem;color:rgba(200,160,40,0.85);font-weight:500}
 
 .hero-corner-tl,.hero-corner-br{
@@ -285,6 +287,7 @@ html[data-theme="light"] .hero-spotlight{
   position:absolute;top:0;left:0;right:0;height:1px;
   background:linear-gradient(90deg, transparent, rgba(200,160,40,0.12) 20%, rgba(200,160,40,0.2) 50%, rgba(200,160,40,0.12) 80%, transparent);
 }
+section[id]{scroll-margin-top:84px}
 .sec-divider-b{
   position:absolute;bottom:0;left:0;right:0;height:1px;
   background:linear-gradient(90deg, transparent, rgba(200,160,40,0.06) 30%, transparent);
@@ -360,6 +363,7 @@ html[data-theme="light"] .hero-spotlight{
 #projects{
   background:linear-gradient(180deg, #000 0%, #060606 50%, #000 100%);
   padding:110px 8%;position:relative;
+  scroll-margin-top:84px;
 }
 #projects::after{
   content:'';position:absolute;top:10%;left:-5%;width:400px;height:400px;
@@ -388,8 +392,8 @@ html[data-theme="light"] .hero-spotlight{
 .proj-grid{display:flex;flex-direction:column;gap:18px}
 .proj-card{
   background:var(--glass);border:1px solid rgba(var(--ink),0.04);
-  border-radius:16px;padding:30px 34px;display:grid;grid-template-columns:1fr auto;
-  gap:24px;align-items:start;transition:all 0.4s;position:relative;overflow:hidden;
+  border-radius:16px;padding:30px 34px;display:grid;grid-template-columns:minmax(0,1fr) 320px;
+  gap:34px;align-items:start;transition:all 0.4s;position:relative;overflow:hidden;
   backdrop-filter:blur(4px);
 }
 .proj-card::before{
@@ -422,6 +426,18 @@ html[data-theme="light"] .hero-spotlight{
   color:var(--gold);font-weight:500;letter-spacing:0.3px;
 }
 .proj-icon{width:80px;height:80px;border-radius:14px;background:var(--surface);border:1px solid rgba(var(--ink),0.04);display:flex;align-items:center;justify-content:center;font-size:2rem;flex-shrink:0}
+.proj-visual{
+  position:relative;width:100%;aspect-ratio:16/10;border-radius:12px;overflow:hidden;
+  border:1px solid rgba(var(--ink),0.08);background:#07070b;flex-shrink:0;
+  box-shadow:0 18px 40px rgba(0,0,0,0.38);
+}
+.proj-visual img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 0.65s cubic-bezier(.16,1,.3,1)}
+.proj-visual::after{
+  content:'';position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(180deg,rgba(0,0,0,0) 58%,rgba(0,0,0,0.22));
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,0.04);
+}
+.proj-card:hover .proj-visual img{transform:scale(1.035)}
 .pnum{font-size:0.62rem;font-weight:700;color:rgba(200,155,30,0.7);letter-spacing:2.5px;font-family:'Syne',sans-serif}
 .ptag{font-size:0.68rem;font-weight:700;letter-spacing:1.6px;text-transform:uppercase;color:rgba(var(--ink),0.5);background:rgba(var(--ink),0.04);border:1px solid rgba(var(--ink),0.09);padding:3px 10px;border-radius:20px;font-family:'Inter',sans-serif}
 .ptag-acc{color:var(--gold);background:rgba(200,155,30,0.06);border-color:rgba(200,155,30,0.18)}
@@ -633,6 +649,12 @@ html[data-theme="light"] .hero-spotlight{
 .c-input:focus{outline:none;border-color:rgba(200,155,30,0.25);box-shadow:0 0 0 3px rgba(200,155,30,0.03)}
 .c-input::placeholder{color:rgba(var(--ink),0.12)}
 textarea.c-input{min-height:110px;resize:vertical}
+.c-status{
+  display:none;margin-top:2px;padding:10px 14px;border-radius:8px;
+  background:rgba(74,222,128,0.06);border:1px solid rgba(74,222,128,0.18);
+  color:#86efac;font-size:0.78rem;line-height:1.5;
+}
+.c-status.show{display:block}
 .btn{
   display:inline-flex;align-items:center;justify-content:center;gap:10px;
   border:1px solid rgba(200,155,30,0.2);border-radius:10px;
@@ -707,8 +729,7 @@ nav.scrolled:not(.floating){padding:12px 5%;box-shadow:0 12px 30px rgba(0,0,0,0.
 .hero-live em{font-style:normal;color:rgba(var(--ink),0.5)}
 /* project cards */
 .proj-feat{
-  position:absolute;top:16px;right:16px;z-index:2;
-  display:inline-flex;align-items:center;gap:6px;
+  display:inline-flex;align-items:center;gap:6px;margin-bottom:10px;
   background:linear-gradient(135deg,var(--gold),var(--gold2));color:#0a0a0a;
   font-size:0.62rem;font-weight:800;letter-spacing:1.4px;text-transform:uppercase;
   padding:5px 12px;border-radius:100px;box-shadow:0 8px 20px rgba(200,160,40,0.25);
@@ -717,6 +738,9 @@ nav.scrolled:not(.floating){padding:12px 5%;box-shadow:0 12px 30px rgba(0,0,0,0.
 .proj-icon{transition:transform 0.35s}
 .proj-card:hover .proj-icon{transform:scale(1.06) rotate(-3deg)}
 
+@media(max-width:1100px){
+  .proj-card{grid-template-columns:minmax(0,1fr) 260px;gap:26px;padding:26px 28px}
+}
 @media(max-width:1024px){
   #about,#projects,#certifications,#skills,#experience,#contact{padding:90px 6%}
   .skills-grid{grid-template-columns:repeat(3,1fr)}
@@ -729,7 +753,8 @@ nav.scrolled:not(.floating){padding:12px 5%;box-shadow:0 12px 30px rgba(0,0,0,0.
   .hero-photo{object-position:center 8%}
   section{padding:80px 6%}
   .proj-card,.skills-grid,.journey-grid,.contact-wrap{grid-template-columns:1fr}
-  .proj-card{grid-template-columns:1fr}
+  .proj-card{display:flex;flex-direction:column;align-items:stretch;padding:22px}
+  .proj-visual{order:-1;width:100%;margin-bottom:4px}
   .proj-icon{display:none}
   .certs-grid{grid-template-columns:1fr 1fr}
   .skills-grid{grid-template-columns:repeat(2,1fr)}
@@ -747,6 +772,9 @@ nav.scrolled:not(.floating){padding:12px 5%;box-shadow:0 12px 30px rgba(0,0,0,0.
   .about-stats{gap:16px}
   .astat{min-width:60px}
   .ft-copy{font-size:0.72rem}
+  .proj-filters{gap:6px;margin-bottom:26px}
+  .pf-btn{font-size:0.64rem;letter-spacing:0.4px;padding:7px 12px}
+  .pf-btn .pf-count{font-size:0.62rem;padding:1px 5px}
 }
 /* ===== interactive hero: parallax geometric layers ===== */
 .hero-shapes{
@@ -900,7 +928,7 @@ html[data-theme="light"] .cf-meta{color:rgba(var(--ink),0.5)}
 html[data-theme="light"] .cf-buls li{color:rgba(var(--ink),0.6)}
 html[data-theme="light"] .proj-feat{color:#0a0a0a}
 @media print{
-  nav,.scroll-progress,.to-top,.hero-ambient,.hero-shapes,.hero-right,.menu-btn,.theme-toggle,.proj-filters,.proj-toolbar,.proj-empty,.proj-feat,.hero-cta-row,.hero-bottom-row,.c-form,.ft-soc{display:none!important}
+  nav,.scroll-progress,.to-top,.hero-ambient,.hero-shapes,.hero-right,.menu-btn,.theme-toggle,.proj-filters,.proj-toolbar,.proj-empty,.proj-feat,.proj-visual,.hero-cta-row,.hero-bottom-row,.c-form,.ft-soc{display:none!important}
   body{background:#fff!important;color:#000!important}
   section{background:#fff!important;padding:24px 0!important;position:static!important}
   .rev,.rev-l,.rev-r,.proj-card,.cert-card,.skill-card,.tl-item{opacity:1!important;transform:none!important}
@@ -928,8 +956,8 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
     <li><a href="#contact">Contact</a></li>
   </ul>
   <div class="nav-actions">
-    <button class="theme-toggle" id="themeToggle" aria-label="Toggle light or dark theme"><i class="fas fa-moon"></i></button>
-    <button class="menu-btn" id="menuBtn" aria-label="Open menu"><i class="fas fa-bars"></i></button>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light theme" aria-pressed="false"><i class="fas fa-moon"></i></button>
+    <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks"><i class="fas fa-bars"></i></button>
   </div>
 </nav>
 <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
@@ -953,7 +981,8 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
 
   <div class="hero-grid">
     <div class="hero-left">
-            <h1 class="hero-name">Saifeldin<span class="g">Mohamed Saied</span></h1>
+      <div class="hero-eyebrow"><span class="dot"></span>Open to internships</div>
+      <h1 class="hero-name">Saifeldin<span class="g">Mohamed Saied</span></h1>
       <div class="hero-role">Software Engineering Student<span class="sep"></span>Egyptian Chinese University<span class="sep"></span>Cairo, Egypt</div>
       <p class="hero-typed"><span id="typedLine"></span><span class="typed-caret" aria-hidden="true"></span></p>
       <p class="hero-desc">I build things end to end — from full-stack web apps and AI/ML systems to real-time graphics engines with hand-rolled math. Currently exploring the intersection of software engineering, machine learning, and computer graphics.</p>
@@ -972,7 +1001,7 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
         <div class="hsi-div"></div>
         <div class="hero-live"><i class="fas fa-map-pin"></i><span id="cairoClock">--:--</span><em>· Cairo, GMT+2</em></div>
         <div class="hero-stats-inline">
-<div class="hsi-item"><span class="hsi-num" data-count-up>17</span><span class="hsi-lbl">Projects</span></div>
+<div class="hsi-item"><span class="hsi-num" data-count-up>18</span><span class="hsi-lbl">Projects</span></div>
       <div class="hsi-item"><span class="hsi-num" data-count-up>9</span><span class="hsi-lbl">Certs</span></div>
         </div>
       </div>
@@ -980,11 +1009,11 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
 
     <div class="hero-right">
       <div class="hero-photo-frame">
-        <img class="hero-photo" src="hero.png" alt="Saifeldin Mohamed Saied" width="1280" height="882" loading="lazy" decoding="async">
+        <img class="hero-photo" src="hero.webp" alt="Saifeldin Mohamed Saied" width="720" height="960" loading="eager" fetchpriority="high" decoding="async">
         <div class="hero-photo-scrim"></div>
         <div class="hero-photo-caption">
           <div class="hpc-name">Saifeldin Mohamed Saied</div>
-          <div class="hpc-role">Computer Science Student</div>
+          <div class="hpc-role">Software Engineering Student</div>
         </div>
         <div class="hero-corner-tl"></div>
         <div class="hero-corner-br"></div>
@@ -1005,12 +1034,12 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
       <div class="about-intro">Hi, I'm <span>Saifeldin Mohamed Saied</span> — a Software Engineering Student at Egyptian Chinese University with a passion for systems programming, AI, and full-stack development.</div>
       <p class="about-p">I'm currently pursuing my B.Sc. at <strong>Egyptian Chinese University (ECU)</strong> in Cairo, after previously studying at Cairo University's Faculty of Computers & AI. My academic journey is driven by a deep curiosity about how things work under the hood — from memory management in C++ to collision-resolution in multi-agent pathfinding.</p>
       <p class="about-p">My technical toolkit spans <strong>systems programming</strong> with C++ and OOP design patterns, <strong>AI algorithms</strong> including A* and MAPF for multi-agent coordination, <strong>full-stack web development</strong> using Flask and vanilla JavaScript, and <strong>networking & cybersecurity</strong> fundamentals. I believe in building things that matter — whether it's a hospital management system or a luxury dealership website.</p>
-      <p class="about-p">I've shipped <strong>seventeen projects</strong> — including real client work such as a luxury dealership platform for <strong>El Gehad Automotive</strong>, a corporate site for an ELV systems integrator, and a booking assistant for people with disabilities — alongside nine certifications, led by a professional <strong>NovaStar LED Technician</strong> credential and six Mahara-Tech certificates from Egypt's Ministry of Communications.</p>
+      <p class="about-p">I've shipped <strong>eighteen projects</strong> — including real client work such as a luxury dealership platform for <strong>El Gehad Automotive</strong>, a corporate site for an ELV systems integrator, and a booking assistant for people with disabilities — alongside nine certifications, led by a professional <strong>NovaStar LED Technician</strong> credential and six Mahara-Tech certificates from Egypt's Ministry of Communications.</p>
     </div>
     <div class="about-right rev-r">
       <div class="about-right-lbl">At a Glance</div>
       <div class="about-stats">
-<div class="astat"><span class="astat-num">17</span><span class="astat-lbl">Projects</span></div>
+<div class="astat"><span class="astat-num">18</span><span class="astat-lbl">Projects</span></div>
       <div class="astat"><span class="astat-num">9</span><span class="astat-lbl">Certifications</span></div>
         <div class="astat"><span class="astat-num">3</span><span class="astat-lbl">Languages</span></div>
         <div class="astat"><span class="astat-num">2+</span><span class="astat-lbl">Years Building</span></div>
@@ -1038,19 +1067,38 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
     </div>
   </div>
   <div class="proj-filters" id="projFilters">
-    <button class="pf-btn active" data-filter="all">All Projects <span class="pf-count">17</span></button>
-    <button class="pf-btn" data-filter="web">Web &amp; Full-Stack <span class="pf-count">5</span></button>
-    <button class="pf-btn" data-filter="ai">AI &amp; Machine Learning <span class="pf-count">3</span></button>
-    <button class="pf-btn" data-filter="graphics">Graphics & Game Dev <span class="pf-count">5</span></button>
-    <button class="pf-btn" data-filter="systems">Systems & Embedded <span class="pf-count">3</span></button>
-    <button class="pf-btn" data-filter="mobile">Mobile & Android <span class="pf-count">1</span></button>
+    <button class="pf-btn active" type="button" data-filter="all" aria-pressed="true">All Projects <span class="pf-count">18</span></button>
+    <button class="pf-btn" type="button" data-filter="web" aria-pressed="false">Web &amp; Full-Stack <span class="pf-count">6</span></button>
+    <button class="pf-btn" type="button" data-filter="ai" aria-pressed="false">AI &amp; Machine Learning <span class="pf-count">3</span></button>
+    <button class="pf-btn" type="button" data-filter="graphics" aria-pressed="false">Graphics & Game Dev <span class="pf-count">5</span></button>
+    <button class="pf-btn" type="button" data-filter="systems" aria-pressed="false">Systems & Embedded <span class="pf-count">3</span></button>
+    <button class="pf-btn" type="button" data-filter="mobile" aria-pressed="false">Mobile & Android <span class="pf-count">1</span></button>
   </div>
   <p class="proj-empty" id="projEmpty">No projects match your search or filter.</p>
   <div class="proj-grid">
 
+    <div class="proj-card rev" data-cat="ai">
+      <div>
+        <div class="proj-num"><span class="pnum">01</span><span class="ptag">SOLO PROJECT</span><span class="ptag ptag-acc">AI &amp; MACHINE LEARNING</span></div>
+        <div class="proj-feat"><i class="fas fa-star"></i> Featured · LLM</div>
+        <h3 class="proj-title">AI Resume Analyser &mdash; LLM Scoring &amp; ATS Feedback</h3>
+        <p class="proj-desc">A Next.js app that reads a PDF resume, scores it with an LLM, and returns ATS checks, skill-gap analysis and job-match feedback in seconds.</p>
+        <ul class="proj-buls">
+          <li>Built the upload-to-report pipeline: PDF parsing with pdf-parse, structured prompting, and Groq's openai/gpt-oss-120b model</li>
+          <li>Generates an overall score plus ATS readiness checks for keyword coverage, section structure, formatting and quantified impact</li>
+          <li>Matches a pasted job description against the resume to surface missing skills and role-specific improvements</li>
+          <li>Adds multi-resume comparison for ranking several candidates against one role</li>
+          <li>Drag-and-drop upload, clear per-section result views and a responsive Tailwind CSS v4 interface</li>
+        </ul>
+        <div class="stack"><span class="stag">Next.js 15</span><span class="stag">TypeScript</span><span class="stag">Tailwind CSS 4</span><span class="stag">Groq</span><span class="stag">pdf-parse</span><span class="stag">react-dropzone</span></div>
+        <div class="proj-links"><a class="plink" href="https://github.com/seifmomo/ai-resume-analyser" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a></div>
+      </div>
+      <div class="proj-visual"><img src="img/projects/ai-resume.jpg" alt="AI Resume Analyser dashboard with resume upload, scoring and ATS feedback panels" width="1200" height="750" loading="lazy" decoding="async"></div>
+    </div>
+
     <div class="proj-card rev" data-cat="systems">
       <div>
-        <div class="proj-num"><span class="pnum">01</span><span class="ptag">ECU TEAM PROJECT</span><span class="ptag ptag-acc">SYSTEMS &amp; EMBEDDED</span></div>
+        <div class="proj-num"><span class="pnum">02</span><span class="ptag">ECU TEAM PROJECT</span><span class="ptag ptag-acc">SYSTEMS &amp; EMBEDDED</span></div>
         <h3 class="proj-title">KV Snapshot &mdash; Crash-Safe Key&ndash;Value Store with Atomic Snapshots</h3>
         <p class="proj-desc">Team-built in-memory key&ndash;value store with crash-safe, checksummed snapshot files, a REST API, an interactive CLI, and a browser dashboard. Implemented with the Python standard library only &mdash; no Flask, no database, no third-party runtime dependencies.</p>
         <ul class="proj-buls">
@@ -1062,29 +1110,31 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
         <div class="stack"><span class="stag">Python</span><span class="stag">Standard Library</span><span class="stag">SHA-256</span><span class="stag">Atomic I/O</span><span class="stag">Threading</span><span class="stag">REST API</span><span class="stag">GitHub Actions</span></div>
         <div class="proj-links"><a class="plink" href="https://github.com/seifmomo/kv-snapshot" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a><a class="plink plink-live" href="https://github.com/seifmomo/kv-snapshot/blob/main/docs/KV-Snapshot-Project-Report.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Project Report</a></div>
       </div>
-      <div class="proj-icon">&#128451;&#65039;</div>
-    </div>
-
-    <div class="proj-card rev" data-cat="ai">
-      <div>
-        <div class="proj-num"><span class="pnum">02</span><span class="ptag">SOLO PROJECT</span><span class="ptag ptag-acc">AI &amp; MULTI-AGENT SYSTEMS</span></div>
-        <h3 class="proj-title">Quality Network &mdash; Enterprise Network Topology Explorer</h3>
-        <p class="proj-desc">Interactive network-map application for discovering, visualizing, and analyzing enterprise network infrastructure. Renders devices, links, and hierarchy as a fast, responsive graph and helps engineers reason about topology and reachability.</p>
-        <ul class="proj-buls">
-          <li>Built the full topology-rendering layer: nodes, links, hierarchy traversal, and smooth pan/zoom interaction</li>
-          <li>Designed searchable, filterable device and link views for fast large-network exploration</li>
-          <li>Shipped as a production Progressive Web App with offline support and installable home-screen behaviour</li>
-          <li>Deployed on GitHub Pages and iterated on the visual design until the interface read as clean and professional</li>
-        </ul>
-        <div class="stack"><span class="stag">JavaScript</span><span class="stag">D3.js</span><span class="stag">CSS3</span><span class="stag">Canvas</span><span class="stag">Service Workers</span><span class="stag">PWA</span><span class="stag">GitHub Pages</span></div>
-        <div class="proj-links"><a class="plink plink-live" href="https://seifmomo.github.io/quality-network-map/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Live Demo</a></div>
-      </div>
-      <div class="proj-icon"></div>
+      <div class="proj-visual"><img src="img/projects/kv-snapshot.jpg" alt="KV Snapshot cover art with a database stack, key and checksummed snapshot file" width="1200" height="750" loading="lazy" decoding="async"></div>
     </div>
 
     <div class="proj-card rev" data-cat="web">
       <div>
-        <div class="proj-num"><span class="pnum">03</span><span class="ptag">SOLO PROJECT</span><span class="ptag ptag-acc">WEB & FULL-STACK</span></div>
+        <div class="proj-num"><span class="pnum">03</span><span class="ptag">INDEPENDENT BUILD</span><span class="ptag ptag-acc">WEB &amp; FULL-STACK</span></div>
+        <h3 class="proj-title">Quality Network &mdash; Brand &amp; Division Catalogue for a Network Integrator</h3>
+        <p class="proj-desc">A multi-page catalogue for Quality Network / Data that turns a dense portfolio of vendors, divisions and installations into a clear, navigable buying journey.</p>
+        <ul class="proj-buls">
+          <li>Structured six division pages covering active/WiFi, passive, rack, IP telephony, industrial software and supply partners</li>
+          <li>Organised 25 represented brands and 18 supply partners into searchable, filterable catalogues with branch attribution</li>
+          <li>Presented 13 landmark installations with sector filters, project details and the technology brands behind each site</li>
+          <li>Hand-rolled the network diagrams and interactions in vanilla JavaScript and inline SVG &mdash; no D3, Canvas or framework dependencies</li>
+          <li>Shipped a responsive static site with a shared design system, structured metadata and accessible keyboard navigation</li>
+        </ul>
+        <div class="stack"><span class="stag">HTML5</span><span class="stag">CSS3</span><span class="stag">Vanilla JS</span><span class="stag">Inline SVG</span><span class="stag">GitHub Pages</span></div>
+        <div class="proj-links"><a class="plink plink-live" href="https://seifmomo.github.io/quality-network-map/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Live Demo</a></div>
+      </div>
+      <div class="proj-visual"><img src="img/projects/quality-network.jpg" alt="Quality Network / Data catalogue homepage with division and supply partner navigation" width="1200" height="750" loading="lazy" decoding="async"></div>
+    </div>
+
+
+    <div class="proj-card rev" data-cat="web">
+      <div>
+        <div class="proj-num"><span class="pnum">04</span><span class="ptag">SOLO PROJECT</span><span class="ptag ptag-acc">WEB & FULL-STACK</span></div>
         <h3 class="proj-title">FoodieDash — Online Food Ordering System</h3>
         <p class="proj-desc">A complete front-end food ordering platform covering the full user journey from browsing to delivery tracking, including an admin management dashboard.</p>
         <ul class="proj-buls">
@@ -1096,12 +1146,12 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
         <div class="stack"><span class="stag">HTML5</span><span class="stag">CSS3</span><span class="stag">JavaScript</span><span class="stag">DOM API</span><span class="stag">localStorage</span></div>
         <div class="proj-links"><a class="plink plink-live" href="https://seifmomo.github.io/foodiedash/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Live Demo</a></div>
       </div>
-      <div class="proj-icon">🍔</div>
+      <div class="proj-visual"><img src="img/projects/foodiedash.jpg" alt="FoodieDash online food ordering homepage with menu categories and dish cards" width="1200" height="750" loading="lazy" decoding="async"></div>
     </div>
 
     <div class="proj-card rev" data-cat="systems">
       <div>
-        <div class="proj-num"><span class="pnum">04</span><span class="ptag">ECU COURSEWORK</span><span class="ptag ptag-acc">SYSTEMS & EMBEDDED</span></div>
+        <div class="proj-num"><span class="pnum">05</span><span class="ptag">ECU COURSEWORK</span><span class="ptag ptag-acc">SYSTEMS & EMBEDDED</span></div>
         <h3 class="proj-title">Hospital Management System</h3>
         <p class="proj-desc">Console-based C++ application managing full hospital operations — patients, doctors, appointments, and automated billing.</p>
         <ul class="proj-buls">
@@ -1113,12 +1163,12 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
         <div class="stack"><span class="stag">C++</span><span class="stag">OOP</span><span class="stag">STL</span><span class="stag">Linked List</span><span class="stag">File I/O</span></div>
         <div class="proj-links"><a class="plink" href="https://github.com/seifmomo/hosbital-manage-system" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a></div>
       </div>
-      <div class="proj-icon">🏥</div>
+      <div class="proj-visual"><img src="img/projects/hospital.jpg" alt="Hospital Management System cover art with a medical cross and ECG line" width="1200" height="750" loading="lazy" decoding="async"></div>
     </div>
 
     <div class="proj-card rev" data-cat="ai">
       <div>
-        <div class="proj-num"><span class="pnum">05</span><span class="ptag">AI COURSE</span><span class="ptag ptag-acc">AI & MACHINE LEARNING</span></div>
+        <div class="proj-num"><span class="pnum">06</span><span class="ptag">AI COURSE</span><span class="ptag ptag-acc">AI & MACHINE LEARNING</span></div>
         <h3 class="proj-title">Warehouse Multi-Robot Coordination</h3>
         <p class="proj-desc">Simulates autonomous robots navigating a 10×10 grid warehouse, comparing independent vs cooperative multi-agent pathfinding with real-time visualisation.</p>
         <ul class="proj-buls">
@@ -1129,12 +1179,12 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
         </ul>
         <div class="stack"><span class="stag">Python</span><span class="stag">A* Algorithm</span><span class="stag">MAPF</span><span class="stag">matplotlib</span></div>
       </div>
-      <div class="proj-icon">🤖</div>
+      <div class="proj-visual"><img src="img/projects/warehouse.jpg" alt="Warehouse Multi-Robot Coordination cover art with grid paths and a collision marker" width="1200" height="750" loading="lazy" decoding="async"></div>
     </div>
 
     <div class="proj-card rev" data-cat="web">
       <div>
-        <div class="proj-num"><span class="pnum">06</span><span class="ptag">SOLO PROJECT</span><span class="ptag ptag-acc">WEB & FULL-STACK</span></div>
+        <div class="proj-num"><span class="pnum">07</span><span class="ptag">SOLO PROJECT</span><span class="ptag ptag-acc">WEB & FULL-STACK</span></div>
         <h3 class="proj-title">Study Planner — Personalized Schedule Generator</h3>
         <p class="proj-desc">Full-stack web app that auto-generates study schedules using a priority algorithm. 30-user validated — reduces scheduling time from 30+ minutes to zero.</p>
         <ul class="proj-buls">
@@ -1146,12 +1196,12 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
         <div class="stack"><span class="stag">Python</span><span class="stag">Flask</span><span class="stag">SQLite</span><span class="stag">Bootstrap 5</span><span class="stag">Chart.js</span></div>
         <div class="proj-links"><a class="plink" href="https://github.com/seifmomo/study-planner" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a></div>
       </div>
-      <div class="proj-icon">📅</div>
+      <div class="proj-visual"><img src="img/projects/study-planner.jpg" alt="Study Planner cover art with a weekly calendar and clock" width="1200" height="750" loading="lazy" decoding="async"></div>
     </div>
 
         <div class="proj-card rev" data-cat="systems">
       <div>
-        <div class="proj-num"><span class="pnum">07</span><span class="ptag">NETWORKING COURSE</span><span class="ptag ptag-acc">SYSTEMS & EMBEDDED</span></div>
+        <div class="proj-num"><span class="pnum">08</span><span class="ptag">NETWORKING COURSE</span><span class="ptag ptag-acc">SYSTEMS & EMBEDDED</span></div>
         <h3 class="proj-title">HTTP Persistent vs Non-Persistent Connections over IoT</h3>
         <p class="proj-desc">A full client-server benchmarking system comparing HTTP connection strategies on embedded hardware, quantifying the real latency cost of repeated TCP handshakes.</p>
         <ul class="proj-buls">
@@ -1162,12 +1212,12 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
         </ul>
         <div class="stack"><span class="stag">Arduino</span><span class="stag">Embedded C++</span><span class="stag">Python Sockets</span><span class="stag">Wireshark</span><span class="stag">TCP/IP</span></div>
       </div>
-      <div class="proj-icon">📡</div>
+      <div class="proj-visual"><img src="img/projects/http-iot.jpg" alt="HTTP over IoT cover art showing an Arduino board and server exchanging packets" width="1200" height="750" loading="lazy" decoding="async"></div>
     </div>
 
 <div class="proj-card rev" data-cat="web">
       <div>
-        <div class="proj-num"><span class="pnum">08</span><span class="ptag">FREELANCE CLIENT</span><span class="ptag ptag-acc">WEB & FULL-STACK</span></div>
+        <div class="proj-num"><span class="pnum">09</span><span class="ptag">FREELANCE CLIENT</span><span class="ptag ptag-acc">WEB & FULL-STACK</span></div>
         <h3 class="proj-title">El Gehad Automotive — Luxury Dealership Platform</h3>
         <p class="proj-desc">Static-first full-stack dealer site: 71-vehicle catalog with client-side search/filter and paginated "load more," per-vehicle detail pages, JWT-secured admin CRUD, and inquiry/newsletter pipelines.</p>
         <ul class="proj-buls">
@@ -1179,12 +1229,12 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
         <div class="stack"><span class="stag">HTML/CSS/JS</span><span class="stag">Node.js</span><span class="stag">Express</span><span class="stag">SQLite</span><span class="stag">JWT</span><span class="stag">GitHub Pages</span></div>
         <div class="proj-links"><a class="plink plink-live" href="https://seifmomo.github.io/el-gehad-automotive/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Live Demo</a></div>
       </div>
-      <div class="proj-icon">🚗</div>
+      <div class="proj-visual"><img src="img/projects/el-gehad.jpg" alt="El Gehad Automotive luxury dealership homepage with a Bentley hero image" width="1200" height="750" loading="lazy" decoding="async"></div>
     </div>
 
     <div class="proj-card rev" data-cat="ai">
       <div>
-        <div class="proj-num"><span class="pnum">09</span><span class="ptag">MACHINE LEARNING</span><span class="ptag ptag-acc">AI & MACHINE LEARNING</span></div>
+        <div class="proj-num"><span class="pnum">10</span><span class="ptag">MACHINE LEARNING</span><span class="ptag ptag-acc">AI & MACHINE LEARNING</span></div>
         <h3 class="proj-title">Energy Consumption Prediction & Analysis System</h3>
         <p class="proj-desc">A machine learning and deep learning system predicting household energy consumption, benchmarking model performance and uncovering usage patterns through unsupervised clustering.</p>
         <ul class="proj-buls">
@@ -1196,12 +1246,12 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
         <div class="stack"><span class="stag">Python</span><span class="stag">CatBoost</span><span class="stag">PyTorch</span><span class="stag">Scikit-learn</span><span class="stag">K-Means</span></div>
         <div class="proj-links"><a class="plink" href="https://github.com/seifmomo/appliances-energy-prediction" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a></div>
       </div>
-      <div class="proj-icon">⚡</div>
+      <div class="proj-visual"><img src="img/projects/energy.jpg" alt="Energy Consumption Prediction cover art with a PCA cluster plot" width="1200" height="750" loading="lazy" decoding="async"></div>
     </div>
 
     <div class="proj-card rev" data-cat="graphics">
       <div>
-        <div class="proj-num"><span class="pnum">10</span><span class="ptag">GRAPHICS PROGRAMMING</span><span class="ptag ptag-acc">GRAPHICS & GAME DEV</span></div>
+        <div class="proj-num"><span class="pnum">11</span><span class="ptag">GRAPHICS PROGRAMMING</span><span class="ptag ptag-acc">GRAPHICS & GAME DEV</span></div>
         <h3 class="proj-title">3D Maze Game</h3>
         <p class="proj-desc">A complete 3D puzzle game built from scratch with a hand-coded math library — no external dependencies for transforms, projection, or lighting.</p>
         <ul class="proj-buls">
@@ -1213,12 +1263,12 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
         <div class="stack"><span class="stag">C++</span><span class="stag">OpenGL</span><span class="stag">FreeGLUT</span><span class="stag">Custom Math Library</span></div>
         <div class="proj-links"><a class="plink" href="https://github.com/seifmomo/3D-Maze-Game" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a></div>
       </div>
-      <div class="proj-icon">🌀</div>
+      <div class="proj-visual"><img src="img/projects/3d-maze.jpg" alt="3D Maze cover art with an isometric wireframe maze" width="1200" height="750" loading="lazy" decoding="async"></div>
     </div>
 
     <div class="proj-card rev" data-cat="graphics">
       <div>
-        <div class="proj-num"><span class="pnum">11</span><span class="ptag">GRAPHICS PROGRAMMING</span><span class="ptag ptag-acc">GRAPHICS & GAME DEV</span></div>
+        <div class="proj-num"><span class="pnum">12</span><span class="ptag">GRAPHICS PROGRAMMING</span><span class="ptag ptag-acc">GRAPHICS & GAME DEV</span></div>
         <h3 class="proj-title">Fast & Furious: 3D Street Racing</h3>
         <p class="proj-desc">A night-city racing game with a procedurally generated city, AI traffic, and a fully hand-modeled sports car with a dynamic multi-light system.</p>
         <ul class="proj-buls">
@@ -1229,12 +1279,12 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
         <div class="stack"><span class="stag">C++</span><span class="stag">OpenGL</span><span class="stag">FreeGLUT</span><span class="stag">Win32/MCI Audio</span></div>
         <div class="proj-links"><a class="plink" href="https://github.com/seifmomo/StreetRacing" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a></div>
       </div>
-      <div class="proj-icon">🏎️</div>
+      <div class="proj-visual"><img src="img/projects/street-racing.jpg" alt="Street Racing cover art with a synthwave road and skyline" width="1200" height="750" loading="lazy" decoding="async"></div>
     </div>
 
     <div class="proj-card rev" data-cat="graphics">
       <div>
-        <div class="proj-num"><span class="pnum">12</span><span class="ptag">GRAPHICS PROGRAMMING</span><span class="ptag ptag-acc">GRAPHICS & GAME DEV</span></div>
+        <div class="proj-num"><span class="pnum">13</span><span class="ptag">GRAPHICS PROGRAMMING</span><span class="ptag ptag-acc">GRAPHICS & GAME DEV</span></div>
         <h3 class="proj-title">Nebula Overdrive — 3D Car Game</h3>
         <p class="proj-desc">A browser-based 3D racing game with custom GLSL shaders, real-time shadow mapping, and a fully hand-rolled math and audio pipeline.</p>
         <ul class="proj-buls">
@@ -1245,12 +1295,12 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
         <div class="stack"><span class="stag">JavaScript</span><span class="stag">WebGL 2</span><span class="stag">GLSL ES 3.0</span></div>
         <div class="proj-links"><a class="plink plink-live" href="https://seifmomo.github.io/nebula-overdrive/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Live Demo</a></div>
       </div>
-      <div class="proj-icon">🌌</div>
+      <div class="proj-visual"><img src="img/projects/nebula-overdrive.jpg" alt="Nebula Overdrive game start screen with controls and a start race button" width="1200" height="750" loading="lazy" decoding="async"></div>
     </div>
 
     <div class="proj-card rev" data-cat="graphics">
       <div>
-        <div class="proj-num"><span class="pnum">13</span><span class="ptag">GRAPHICS PROGRAMMING</span><span class="ptag ptag-acc">GRAPHICS & GAME DEV</span></div>
+        <div class="proj-num"><span class="pnum">14</span><span class="ptag">GRAPHICS PROGRAMMING</span><span class="ptag ptag-acc">GRAPHICS & GAME DEV</span></div>
         <h3 class="proj-title">Neon Vortex Survivor</h3>
         <p class="proj-desc">An arena survivor game with a full GPU post-processing pipeline and shader-driven neon visual identity.</p>
         <ul class="proj-buls">
@@ -1260,12 +1310,12 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
         <div class="stack"><span class="stag">C++</span><span class="stag">raylib</span><span class="stag">GLSL</span></div>
         <div class="proj-links"><a class="plink" href="https://github.com/seifmomo/neon-vortex-survivor" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a></div>
       </div>
-      <div class="proj-icon">💫</div>
+      <div class="proj-visual"><img src="img/projects/neon-vortex.jpg" alt="Neon Vortex cover art with a glowing particle spiral" width="1200" height="750" loading="lazy" decoding="async"></div>
     </div>
 
     <div class="proj-card rev" data-cat="graphics">
       <div>
-        <div class="proj-num"><span class="pnum">14</span><span class="ptag">GRAPHICS PROGRAMMING</span><span class="ptag ptag-acc">GRAPHICS & GAME DEV</span></div>
+        <div class="proj-num"><span class="pnum">15</span><span class="ptag">GRAPHICS PROGRAMMING</span><span class="ptag ptag-acc">GRAPHICS & GAME DEV</span></div>
         <h3 class="proj-title">Cosmic Drift: Space Runner</h3>
         <p class="proj-desc">An endless runner set in an asteroid field, simulating up to 1,500 concurrent particles with a fully hand-modeled spaceship.</p>
         <ul class="proj-buls">
@@ -1276,12 +1326,12 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
         <div class="stack"><span class="stag">C++</span><span class="stag">OpenGL</span><span class="stag">FreeGLUT</span></div>
         <div class="proj-links"><a class="plink" href="https://github.com/seifmomo/CosmicDrift" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a></div>
       </div>
-      <div class="proj-icon">☄️</div>
+      <div class="proj-visual"><img src="img/projects/cosmic-drift.jpg" alt="Cosmic Drift cover art with a spaceship, stars and planet" width="1200" height="750" loading="lazy" decoding="async"></div>
     </div>
 
     <div class="proj-card rev" data-cat="web">
       <div>
-        <div class="proj-num"><span class="pnum">15</span><span class="ptag">SOLO PROJECT</span><span class="ptag ptag-acc">WEB & FULL-STACK</span></div>
+        <div class="proj-num"><span class="pnum">16</span><span class="ptag">SOLO PROJECT</span><span class="ptag ptag-acc">WEB & FULL-STACK</span></div>
         <h3 class="proj-title">EGYDIR — B2B Directory for Egyptian Companies & Factories</h3>
         <p class="proj-desc">A full modern redesign of the legendary EGYDIR B2B directory with a fresh, bold identity and complete Arabic RTL support — rebuilt on real data from the original Egyptian platform.</p>
         <ul class="proj-buls">
@@ -1294,12 +1344,12 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
         <div class="stack"><span class="stag">React 18</span><span class="stag">Vite 6</span><span class="stag">Tailwind CSS 4</span><span class="stag">React Router</span><span class="stag">RTL</span></div>
         <div class="proj-links"><a class="plink plink-live" href="https://seifmomo.github.io/egydir/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Live Demo</a></div>
       </div>
-      <div class="proj-icon">🏭</div>
+      <div class="proj-visual"><img src="img/projects/egydir.jpg" alt="EGYDIR Arabic B2B directory homepage with search and sector filters" width="1200" height="750" loading="lazy" decoding="async"></div>
     </div>
 
     <div class="proj-card rev" data-cat="web">
       <div>
-        <div class="proj-num"><span class="pnum">16</span><span class="ptag">SOLO PROJECT</span><span class="ptag ptag-acc">WEB & FULL-STACK</span></div>
+        <div class="proj-num"><span class="pnum">17</span><span class="ptag">SOLO PROJECT</span><span class="ptag ptag-acc">WEB & FULL-STACK</span></div>
         <h3 class="proj-title">Quality Egypt — Corporate Website for an ELV Systems Integrator</h3>
         <p class="proj-desc">Complete corporate website rebuild for Egyptian Engineering Projects Co., Quality — a leading ELV systems integrator operating since 1985.</p>
         <ul class="proj-buls">
@@ -1313,13 +1363,13 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
         <div class="stack"><span class="stag">React 19</span><span class="stag">Vite 8</span><span class="stag">Tailwind CSS 4</span><span class="stag">React Router</span></div>
         <div class="proj-links"><a class="plink plink-live" href="https://seifmomo.github.io/quality-egypt/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Live Demo</a></div>
       </div>
-      <div class="proj-icon">🏢</div>
+      <div class="proj-visual"><img src="img/projects/quality-egypt.jpg" alt="Quality Egypt corporate homepage with a building hero and service statistics" width="1200" height="750" loading="lazy" decoding="async"></div>
     </div>
 
     <div class="proj-card rev" data-cat="mobile">
       <div>
-        <div class="proj-num"><span class="pnum">17</span><span class="ptag">IMPACT X · STARTUP</span><span class="ptag ptag-acc">MOBILE & ANDROID</span></div>
-        <div class="proj-feat"><i class="fas fa-star"></i> Featured · Latest</div>
+        <div class="proj-num"><span class="pnum">18</span><span class="ptag">IMPACT X · STARTUP</span><span class="ptag ptag-acc">MOBILE & ANDROID</span></div>
+        <div class="proj-feat"><i class="fas fa-star"></i> Featured · Startup</div>
         <h3 class="proj-title">RAFIQ — Human Support Assistant Booking for People with Disabilities</h3>
         <p class="proj-desc">An AI-powered accessibility marketplace (Android) that connects people with disabilities to trained support assistants — wrapping the journey in sign-language recognition, voice commands, live tracking and emergency SOS.</p>
         <ul class="proj-buls">
@@ -1332,7 +1382,7 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
         <div class="stack"><span class="stag">Kotlin</span><span class="stag">Jetpack Compose</span><span class="stag">Hilt</span><span class="stag">Room</span><span class="stag">Firebase</span><span class="stag">MediaPipe</span><span class="stag">Node.js</span><span class="stag">PostgreSQL</span></div>
         <div class="proj-links"><a class="plink" href="https://github.com/seifmomo/Rafiq" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a></div>
       </div>
-      <div class="proj-icon">🤝</div>
+      <div class="proj-visual"><img src="img/projects/rafiq.jpg" alt="RAFIQ accessibility marketplace cover art with the Rafiq logo" width="1200" height="750" loading="lazy" decoding="async"></div>
     </div>
 
   </div>
@@ -1544,6 +1594,7 @@ html[data-theme="light"] .proj-feat{color:#0a0a0a}
       <input type="email" name="email" class="c-input" placeholder="Your Email" required autocomplete="email" aria-label="Your email address">
       <input type="text" name="subject" class="c-input" placeholder="Subject" aria-label="Subject">
       <textarea name="message" class="c-input" placeholder="Your Message" required aria-label="Your message"></textarea>
+      <p class="c-status" id="formStatus" role="status" aria-live="polite"></p>
       <button type="submit" class="btn"><i class="fas fa-paper-plane"></i> Send Message</button>
     </form>
   </div>
@@ -1663,18 +1714,32 @@ const secs=document.querySelectorAll('section[id]'),navA=Array.from(document.que
 secs.forEach(s=>{new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){navA.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+s.id))}})},{rootMargin:'-45% 0px -50% 0px'}).observe(s)})
 // mobile menu
 const mb=document.getElementById('menuBtn'),nl=document.getElementById('navLinks')
-mb.addEventListener('click',()=>{nl.classList.toggle('open');mb.querySelector('i').className=nl.classList.contains('open')?'fas fa-times':'fas fa-bars'})
-nl.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nl.classList.remove('open');mb.querySelector('i').className='fas fa-bars'}))
+function setMenu(open){
+  nl.classList.toggle('open',open);
+  mb.setAttribute('aria-expanded',open?'true':'false');
+  mb.setAttribute('aria-label',open?'Close menu':'Open menu');
+  mb.querySelector('i').className=open?'fas fa-times':'fas fa-bars';
+}
+mb.addEventListener('click',()=>setMenu(!nl.classList.contains('open')))
+nl.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>setMenu(false)))
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&nl.classList.contains('open')){setMenu(false);mb.focus()}})
+document.addEventListener('click',e=>{if(nl.classList.contains('open')&&!nl.contains(e.target)&&!mb.contains(e.target))setMenu(false)})
+matchMedia('(min-width:769px)').addEventListener('change',e=>{if(e.matches)setMenu(false)})
 // theme toggle
 const tt=document.getElementById('themeToggle')
 tt.addEventListener('click',()=>{
   const isLight=document.documentElement.getAttribute('data-theme')==='light';
   document.documentElement.setAttribute('data-theme',isLight?'dark':'light');
-  tt.querySelector('i').className=isLight?'fas fa-moon':'fas fa-sun';
   try{localStorage.setItem('sms-theme',isLight?'dark':'light')}catch(e){}
+  syncThemeIcon()
 })
 syncThemeIcon()
-function syncThemeIcon(){const light=document.documentElement.getAttribute('data-theme')==='light';tt.querySelector('i').className=light?'fas fa-sun':'fas fa-moon'}
+function syncThemeIcon(){
+  const light=document.documentElement.getAttribute('data-theme')==='light';
+  tt.querySelector('i').className=light?'fas fa-sun':'fas fa-moon';
+  tt.setAttribute('aria-pressed',light?'true':'false');
+  tt.setAttribute('aria-label',light?'Switch to dark theme':'Switch to light theme');
+}
 // counter animation for hero stats
 function animateCount(el){
   const end=parseFloat(el.textContent)||0,t0=performance.now();
@@ -1683,7 +1748,7 @@ function animateCount(el){
 }
 window.addEventListener('load',()=>{document.querySelectorAll('.hsi-num[data-count-up]').forEach(el=>{const o=new IntersectionObserver(es=>{es.forEach(x=>{if(x.isIntersecting){animateCount(el);o.unobserve(el)}})},{threshold:0.5});o.observe(el)})})
 // typed headline
-const ROLES=['I ship full-stack web apps.','I train ML & deep-learning systems.','I build 3D engines with hand-rolled math.','I design for impact — 17 projects shipped.'];
+const ROLES=['I ship full-stack web apps.','I train ML & deep-learning systems.','I build 3D engines with hand-rolled math.','I design for impact — 18 projects shipped.'];
 let ri=0,ci=0,del=false;
 const tlEl=document.getElementById('typedLine');
 function typeLoop(){
@@ -1711,6 +1776,8 @@ if(cfEl)cfEl.addEventListener('submit',e=>{
   const subj=encodeURIComponent('Portfolio message from '+fd.get('name'));
   const body=encodeURIComponent((fd.get('message')||'')+'\n\n— '+fd.get('name')+' ('+fd.get('email')+')');
   window.location.href='mailto:seifmo105@gmail.com?subject='+subj+'&body='+body;
+  const status=document.getElementById('formStatus');
+  if(status){status.textContent='Opening your email app — your message is ready to review and send.';status.classList.add('show')}
   cfEl.reset();
 });
 // Project filters, live search & auto counts
@@ -1736,9 +1803,15 @@ function applyProjectFilter() {
 pfBtns.forEach(btn => btn.addEventListener('click', () => {
   pfBtns.forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
+  syncFilterState();
   applyProjectFilter();
 }));
 if (searchInput) searchInput.addEventListener('input', applyProjectFilter);
+
+function syncFilterState(){
+  pfBtns.forEach(b => b.setAttribute('aria-pressed', b.classList.contains('active') ? 'true' : 'false'));
+}
+syncFilterState();
 
 function refreshCounts() {
   pfBtns.forEach(btn => {

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://seifmomo.github.io/seif-eldin-portfolio/sitemap.xml
